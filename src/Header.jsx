@@ -1,9 +1,9 @@
-import React from 'react';
+
 
 const Header = () => {
     return (
         <header>
-            <div class="imgheader"><img src="https://media.giphy.com/media/MSh3UVXTQplsvMRFTx/giphy.gif" alt="gitlinkedin" /></div>
+            <div class="imgheader"><img src="https://media.giphy.com/media/MSh3UVXTQplsvMRFTx/giphy.gif" alt="giflinkedin" /></div>
             <h1>Rémi Le Gall</h1>
             <nav>
                 <ul>
@@ -26,3 +26,7 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+

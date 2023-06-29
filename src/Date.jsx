@@ -1,6 +1,8 @@
+
+
 const PostsFeed = () => {
     const postsFeedFromFakeApi = [
-
+        // Données des publications
     ];
 
     const formatDate = (dateString) => {
@@ -32,3 +34,6 @@ const PostsFeed = () => {
 };
 
 export default PostsFeed;
+
+
+// Pour formater une date JavaScript dans le format de date standard francais jj/mm/aaaa, on utilise la méthode toLocaleDateString() appliquée à un objet Date. Ainsi, new Date().toLocaleDateString() retournera la date d’aujourd’hui dans le format jj/mm/aaaa.

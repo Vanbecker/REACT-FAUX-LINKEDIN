@@ -92,6 +92,7 @@ import Profils from './Profils';
 import Experiences from './Experiences';
 import PostsFeed from './PostsFeed';
 import Footer from './Footer';
+import Date from './Date';
 
 const postsFeedFromFakeApi = [
   {
