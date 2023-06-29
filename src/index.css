@@ -1,0 +1,148 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+
+
+/* HEADER */
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header .imgheader img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  header nav ul li a:hover {
+    color: #888;
+  }
+  
+
+/* EXPERIENCE */
+.experiences {
+    margin-top: 20px;
+  }
+  
+  .experience {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .current-experience {
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .experience-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .experience-company {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .experience-description {
+    margin-bottom: 10px;
+  }
+  
+  .experience-date {
+    font-style: italic;
+    color: #888;
+  }
+  
+
+/* POST FEED */
+
+.posts-feed {
+    margin-top: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .post-description {
+    margin-bottom: 5px;
+  }
+  
+  .post-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .post-published-at {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .post-author {
+    font-weight: bold;
+    color: #555;
+  }
+
+  /* FOOTER */
+  
+  .footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #888;
+}
